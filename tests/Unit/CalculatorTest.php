@@ -1,3 +1,4 @@
+
 <?php
 
 namespace Tests\Unit;
@@ -19,13 +20,11 @@ class CalculatorTest extends TestCase
         $this->assertEquals(3, $calculator->subtract(5, 2));
     }
 
-    
-     public function test_negative_numbers()
+    public function test_negative_numbers()
     {
-    
-         $calculator = new Calculator;
-         $this->assertEquals(-5, $calculator->add(-2, -3));
-         $this->assertEquals(-1, $calculator->subtract(-3, -2));
-    }
+        $calculator = new Calculator;
 
+        $this->assertEquals(-5, $calculator->add(-2, -3));
+        $this->assertEquals(-1, $calculator->subtract(-3, -2));
+    }
 }
