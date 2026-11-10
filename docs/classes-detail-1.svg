@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="680" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="680"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-680)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="10" y="350" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 10,614 L 330,614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 10,476 L 330,476 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="150.8203125" y="640" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1280) scale(1,-1)">«model»</text>
+			<text x="155.54638671875" y="623" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1246) scale(1,-1)">User</text>
+			<text x="19" y="596" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1192) scale(1,-1)">− id: int</text>
+			<text x="19" y="579" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1158) scale(1,-1)">− name: string</text>
+			<text x="19" y="562" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1124) scale(1,-1)">− email: string</text>
+			<text x="19" y="545" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">− passwordHash: string</text>
+			<text x="19" y="528" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1056) scale(1,-1)">− role: string</text>
+			<text x="19" y="457" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,914) scale(1,-1)">+ verifyPassword(raw: string): bool</text>
+			<text x="19" y="438" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,876) scale(1,-1)">+ changeEmail(value: string): void</text>
+			<text x="19" y="419" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,838) scale(1,-1)">+ rename(value: string): void</text>
+			<text x="19" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">+ hasRole(value: string): bool</text>
+			<text x="19" y="381" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,762) scale(1,-1)">+ changePassword(raw: string): void</text>
+			<rect x="350" y="350" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 350,614 L 670,614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 350,476 L 670,476 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="490.8203125" y="640" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1280) scale(1,-1)">«model»</text>
+			<text x="479.661376953125" y="623" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1246) scale(1,-1)">Customer</text>
+			<text x="359" y="596" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1192) scale(1,-1)">− phone: string</text>
+			<text x="359" y="579" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1158) scale(1,-1)">− defaultAddress: string</text>
+			<text x="359" y="562" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1124) scale(1,-1)">− loyaltyCode: string</text>
+			<text x="359" y="545" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">− registeredAt: DateTime</text>
+			<text x="359" y="528" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1056) scale(1,-1)">− isActive: bool</text>
+			<text x="359" y="457" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,914) scale(1,-1)">+ updatePhone(value: string): void</text>
+			<text x="359" y="438" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,876) scale(1,-1)">+ setAddress(value: string): void</text>
+			<text x="359" y="419" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,838) scale(1,-1)">+ getOrders(): List&lt;Order&gt;</text>
+			<text x="359" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">+ getCart(): Cart</text>
+			<text x="359" y="381" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,762) scale(1,-1)">+ deactivate(reason: string): void</text>
+			<rect x="10" y="10" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 10,274 L 330,274 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 10,136 L 330,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="150.8203125" y="300" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,600) scale(1,-1)">«model»</text>
+			<text x="141.825927734375" y="283" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">Category</text>
+			<text x="19" y="256" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,512) scale(1,-1)">− id: int</text>
+			<text x="19" y="239" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,478) scale(1,-1)">− name: string</text>
+			<text x="19" y="222" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,444) scale(1,-1)">− slug: string</text>
+			<text x="19" y="205" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,410) scale(1,-1)">− description: string</text>
+			<text x="19" y="188" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,376) scale(1,-1)">− isActive: bool</text>
+			<text x="19" y="117" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,234) scale(1,-1)">+ rename(value: string): void</text>
+			<text x="19" y="98" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">+ changeSlug(value: string): void</text>
+			<text x="19" y="79" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,158) scale(1,-1)">+ addProduct(item: Product): void</text>
+			<text x="19" y="60" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">+ removeProduct(item: Product): void</text>
+			<text x="19" y="41" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">+ getProducts(): List&lt;Product&gt;</text>
+			<rect x="350" y="10" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 350,274 L 670,274 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 350,136 L 670,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="490.8203125" y="300" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,600) scale(1,-1)">«model»</text>
+			<text x="485.444091796875" y="283" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">Product</text>
+			<text x="359" y="256" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,512) scale(1,-1)">− id: int</text>
+			<text x="359" y="239" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,478) scale(1,-1)">− name: string</text>
+			<text x="359" y="222" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,444) scale(1,-1)">− description: string</text>
+			<text x="359" y="205" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,410) scale(1,-1)">− brand: string</text>
+			<text x="359" y="188" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,376) scale(1,-1)">− isActive: bool</text>
+			<text x="359" y="117" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,234) scale(1,-1)">+ rename(value: string): void</text>
+			<text x="359" y="98" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">+ describe(value: string): void</text>
+			<text x="359" y="79" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,158) scale(1,-1)">+ addVariant(v: ProductVariant): void</text>
+			<text x="359" y="60" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">+ getVariants(): List&lt;ProductVariant&gt;</text>
+			<text x="359" y="41" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">+ archive(): void</text>
+		</g>
+	</g>
+</svg>
