@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+actor "Гість" as Guest
+actor "Покупець" as Customer
+actor "Адміністратор" as Admin
+Guest <|-- Customer
+rectangle "Інтернет-магазин одягу" {
+usecase "Переглянути каталог" as Catalog
+usecase "Переглянути товар" as Card
+usecase "Зареєструватися" as Register
+usecase "Керувати кошиком" as Cart
+usecase "Оформити замовлення" as Checkout
+usecase "Переглянути замовлення" as History
+usecase "Керувати товарами" as Products
+usecase "Оновити залишки" as Stock
+usecase "Обробити замовлення" as Process
+usecase "Фільтрувати каталог" as Filter
+usecase "Перевірити залишки" as Check
+}
+Guest -- Catalog
+Guest -- Card
+Guest -- Register
+Customer -- Cart
+Customer -- Checkout
+Customer -- History
+Admin -- Products
+Admin -- Stock
+Admin -- Process
+Filter ..> Catalog : <<extend>>\n[задано фільтр]
+Checkout ..> Check : <<include>>
+@enduml

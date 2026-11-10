@@ -1,0 +1,166 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide empty members
+class User <<model>> {
+  -id: int
+  -name: string
+  -email: string
+  -passwordHash: string
+  -role: string
+  +verifyPassword(raw: string): bool
+  +changeEmail(value: string): void
+  +rename(value: string): void
+  +hasRole(value: string): bool
+  +changePassword(raw: string): void
+}
+class Customer <<model>> {
+  -phone: string
+  -defaultAddress: string
+  -loyaltyCode: string
+  -registeredAt: DateTime
+  -isActive: bool
+  +updatePhone(value: string): void
+  +setAddress(value: string): void
+  +getOrders(): List<Order>
+  +getCart(): Cart
+  +deactivate(reason: string): void
+}
+class Category <<model>> {
+  -id: int
+  -name: string
+  -slug: string
+  -description: string
+  -isActive: bool
+  +rename(value: string): void
+  +changeSlug(value: string): void
+  +addProduct(item: Product): void
+  +removeProduct(item: Product): void
+  +getProducts(): List<Product>
+}
+class Product <<model>> {
+  -id: int
+  -name: string
+  -description: string
+  -brand: string
+  -isActive: bool
+  +rename(value: string): void
+  +describe(value: string): void
+  +addVariant(v: ProductVariant): void
+  +getVariants(): List<ProductVariant>
+  +archive(): void
+}
+class ProductVariant <<model>> {
+  -id: int
+  -sku: string
+  -size: string
+  -color: string
+  -price: decimal
+  -stock: int
+  +isAvailable(qty: int): bool
+  +decreaseStock(qty: int): void
+  +increaseStock(qty: int): void
+  +setPrice(value: decimal): void
+  +getLabel(): string
+}
+class Cart <<model>> {
+  -id: int
+  -customerId: int
+  -createdAt: DateTime
+  -updatedAt: DateTime
+  -currency: string
+  +add(v: ProductVariant, qty: int): void
+  +remove(itemId: int): void
+  +changeQuantity(id: int, qty: int): void
+  +calculateTotal(): decimal
+  +clear(): void
+}
+class CartItem <<model>> {
+  -id: int
+  -cartId: int
+  -variantId: int
+  -quantity: int
+  -addedAt: DateTime
+  +setQuantity(qty: int): void
+  +getVariant(): ProductVariant
+  +getUnitPrice(): decimal
+  +subtotal(): decimal
+  +validateStock(): bool
+}
+class Order <<model>> {
+  -id: int
+  -customerId: int
+  -status: string
+  -createdAt: DateTime
+  -deliveryAddress: string
+  -total: decimal
+  -checkoutKey: string
+  +addItem(item: OrderItem): void
+  +calculateTotal(): decimal
+  +confirm(): void
+  +cancel(reason: string): void
+  +markShipped(tracking: string): void
+}
+class OrderItem <<model>> {
+  -id: int
+  -orderId: int
+  -variantId: int
+  -quantity: int
+  -unitPrice: decimal
+  -productLabel: string
+  +subtotal(): decimal
+  +getVariant(): ProductVariant
+  +getLabel(): string
+  +getQuantity(): int
+  +getUnitPrice(): decimal
+}
+abstract class BaseController <<controller>> {
+  -request: Request
+  -auth: AuthManager
+  -validator: Validator
+  -logger: Logger
+  -locale: string
+  +authorize(action: string): void
+  +validate(data: array): array
+  +respond(data: array): Response
+  +logError(message: string): void
+  +currentUser(): User
+}
+class CatalogController <<controller>> {
+  -categoryModel: Category
+  -productModel: Product
+  -variantModel: ProductVariant
+  -pageSize: int
+  -sortFields: List<string>
+  +index(filters: array): Response
+  +show(id: int): Response
+  +store(data: array): Response
+  +update(id: int, data: array): Response
+  +archive(id: int): Response
+}
+class OrderController <<controller>> {
+  -cartModel: Cart
+  -orderModel: Order
+  -itemModel: OrderItem
+  -variantModel: ProductVariant
+  -allowedStatuses: List<string>
+  +checkout(data: array): Response
+  +store(data: array): Response
+  +show(id: int): Response
+  +changeStatus(id: int, s: string): Response
+  +cancel(id: int): Response
+}
+User <|-- Customer
+Category "0..1" o-- "0..*" Product
+Product "1" *-- "1..*" ProductVariant
+Customer "1" -- "0..1" Cart
+Cart "1" *-- "0..*" CartItem
+CartItem "0..*" -- "1" ProductVariant
+Customer "1" -- "0..*" Order
+Order "1" *-- "1..*" OrderItem
+OrderItem "0..*" -- "1" ProductVariant
+BaseController <|-- CatalogController
+BaseController <|-- OrderController
+CatalogController ..> Product : uses
+OrderController ..> Order : uses
+OrderController ..> Cart : uses
+@enduml

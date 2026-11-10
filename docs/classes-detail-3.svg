@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="680" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="680"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-680)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="10" y="350" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 10,614 L 330,614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 10,476 L 330,476 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="150.8203125" y="640" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1280) scale(1,-1)">«model»</text>
+			<text x="138.9345703125" y="623" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1246) scale(1,-1)">OrderItem</text>
+			<text x="19" y="596" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1192) scale(1,-1)">− id: int</text>
+			<text x="19" y="579" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1158) scale(1,-1)">− orderId: int</text>
+			<text x="19" y="562" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1124) scale(1,-1)">− variantId: int</text>
+			<text x="19" y="545" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">− quantity: int</text>
+			<text x="19" y="528" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1056) scale(1,-1)">− unitPrice: decimal</text>
+			<text x="19" y="511" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1022) scale(1,-1)">− productLabel: string</text>
+			<text x="19" y="457" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,914) scale(1,-1)">+ subtotal(): decimal</text>
+			<text x="19" y="438" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,876) scale(1,-1)">+ getVariant(): ProductVariant</text>
+			<text x="19" y="419" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,838) scale(1,-1)">+ getLabel(): string</text>
+			<text x="19" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">+ getQuantity(): int</text>
+			<text x="19" y="381" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,762) scale(1,-1)">+ getUnitPrice(): decimal</text>
+			<rect x="350" y="350" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 350,614 L 670,614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 350,476 L 670,476 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="459.13818359375" y="640" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1280) scale(1,-1)">«abstract» «controller»</text>
+			<text x="463.405029296875" y="623" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1246) scale(1,-1)">BaseController</text>
+			<text x="359" y="596" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1192) scale(1,-1)">− request: Request</text>
+			<text x="359" y="579" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1158) scale(1,-1)">− auth: AuthManager</text>
+			<text x="359" y="562" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1124) scale(1,-1)">− validator: Validator</text>
+			<text x="359" y="545" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">− logger: Logger</text>
+			<text x="359" y="528" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1056) scale(1,-1)">− locale: string</text>
+			<text x="359" y="457" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,914) scale(1,-1)">+ authorize(action: string): void</text>
+			<text x="359" y="438" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,876) scale(1,-1)">+ validate(data: array): array</text>
+			<text x="359" y="419" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,838) scale(1,-1)">+ respond(data: array): Response</text>
+			<text x="359" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">+ logError(message: string): void</text>
+			<text x="359" y="381" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,762) scale(1,-1)">+ currentUser(): User</text>
+			<rect x="10" y="10" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 10,274 L 330,274 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 10,136 L 330,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="143.87451171875" y="300" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,600) scale(1,-1)">«controller»</text>
+			<text x="115.108642578125" y="283" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">CatalogController</text>
+			<text x="19" y="256" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,512) scale(1,-1)">− categoryModel: Category</text>
+			<text x="19" y="239" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,478) scale(1,-1)">− productModel: Product</text>
+			<text x="19" y="222" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,444) scale(1,-1)">− variantModel: ProductVariant</text>
+			<text x="19" y="205" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,410) scale(1,-1)">− pageSize: int</text>
+			<text x="19" y="188" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,376) scale(1,-1)">− sortFields: List&lt;string&gt;</text>
+			<text x="19" y="117" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,234) scale(1,-1)">+ index(filters: array): Response</text>
+			<text x="19" y="98" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">+ show(id: int): Response</text>
+			<text x="19" y="79" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,158) scale(1,-1)">+ store(data: array): Response</text>
+			<text x="19" y="60" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">+ update(id: int, data: array): Response</text>
+			<text x="19" y="41" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">+ archive(id: int): Response</text>
+			<rect x="350" y="10" width="320" height="310" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 350,274 L 670,274 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 350,136 L 670,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="483.87451171875" y="300" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,600) scale(1,-1)">«controller»</text>
+			<text x="461.24365234375" y="283" style="font-family: ArialB; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">OrderController</text>
+			<text x="359" y="256" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,512) scale(1,-1)">− cartModel: Cart</text>
+			<text x="359" y="239" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,478) scale(1,-1)">− orderModel: Order</text>
+			<text x="359" y="222" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,444) scale(1,-1)">− itemModel: OrderItem</text>
+			<text x="359" y="205" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,410) scale(1,-1)">− variantModel: ProductVariant</text>
+			<text x="359" y="188" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,376) scale(1,-1)">− allowedStatuses: List&lt;string&gt;</text>
+			<text x="359" y="117" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,234) scale(1,-1)">+ checkout(data: array): Response</text>
+			<text x="359" y="98" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">+ store(data: array): Response</text>
+			<text x="359" y="79" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,158) scale(1,-1)">+ show(id: int): Response</text>
+			<text x="359" y="60" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">+ changeStatus(id: int, s: string): Response</text>
+			<text x="359" y="41" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">+ cancel(id: int): Response</text>
+		</g>
+	</g>
+</svg>

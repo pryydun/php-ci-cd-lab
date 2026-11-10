@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="720" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 720" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="720"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-720)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="175" y="0" width="480" height="700" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<text x="328.109130859375" y="681" style="font-family: ArialB; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1362) scale(1,-1)">Інтернет-магазин одягу</text>
+			<ellipse cx="75.0" cy="612.0" rx="9.0" ry="9.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<path d="M 75,603 L 75,571 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 58,592 L 92,592 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,571 L 60,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,571 L 90,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="61.5439453125" y="535" style="font-family: Arial; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1070) scale(1,-1)">Гість</text>
+			<ellipse cx="75.0" cy="380.0" rx="9.0" ry="9.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<path d="M 75,371 L 75,339 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 58,360 L 92,360 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,339 L 60,320 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,339 L 90,320 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48.5771484375" y="303" style="font-family: Arial; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,606) scale(1,-1)">Покупець</text>
+			<ellipse cx="75.0" cy="122.0" rx="9.0" ry="9.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<path d="M 75,113 L 75,81 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 58,102 L 92,102 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,81 L 60,62 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,81 L 90,62 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="35.548828125" y="45" style="font-family: Arial; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">Адміністратор</text>
+			<ellipse cx="325.0" cy="595.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="271.452880859375" y="591" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1182) scale(1,-1)">Переглянути каталог</text>
+			<path d="M 92,590 L 192,595 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="530.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="276.152587890625" y="526" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1052) scale(1,-1)">Переглянути товар</text>
+			<path d="M 92,590 L 192,530 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="465.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="281.31689453125" y="461" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,922) scale(1,-1)">Зареєструватися</text>
+			<path d="M 92,590 L 192,465 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="380.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="277.63232421875" y="376" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,752) scale(1,-1)">Керувати кошиком</text>
+			<path d="M 92,358 L 192,380 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="315.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="265.442626953125" y="311" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,622) scale(1,-1)">Оформити замовлення</text>
+			<path d="M 92,358 L 192,315 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="250.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="260.1064453125" y="246" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,492) scale(1,-1)">Переглянути замовлення</text>
+			<path d="M 92,358 L 192,250 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="165.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="275.298583984375" y="161" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,322) scale(1,-1)">Керувати товарами</text>
+			<path d="M 92,100 L 192,165 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="100.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="279.75927734375" y="96" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,192) scale(1,-1)">Оновити залишки</text>
+			<path d="M 92,100 L 192,100 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<ellipse cx="325.0" cy="35.0" rx="133.0" ry="24.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="267.44873046875" y="31" style="font-family: Arial; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">Обробити замовлення</text>
+			<path d="M 92,100 L 192,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 75,400 L 75,530 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="75 530, 70 518, 80 518" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<ellipse cx="557.0" cy="620.0" rx="90.0" ry="25.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="514.27197265625" y="617" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1234) scale(1,-1)">Фільтрувати каталог</text>
+			<ellipse cx="557.0" cy="340.0" rx="90.0" ry="25.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="514.22802734375" y="337" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,674) scale(1,-1)">Перевірити залишки</text>
+			<path d="M 467,620 L 450,603 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 450,603 L 459.192388,605.12132 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 450,603 L 452.12132,612.192388 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="474.564453125" y="658" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1316) scale(1,-1)">«extend» [задано фільтр]</text>
+			<path d="M 453,315 L 467,340 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 467,340 L 458.728643,335.462969 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 467,340 L 467.453703,330.576935 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="527.59375" y="291" style="font-family: Arial; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,582) scale(1,-1)">«include»</text>
+		</g>
+	</g>
+</svg>

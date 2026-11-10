@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="50" y="590" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="106.3818359375" y="607" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1214) scale(1,-1)">User</text>
+			<rect x="50" y="460" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="94.16259765625" y="477" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,954) scale(1,-1)">Customer</text>
+			<rect x="280" y="460" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="337.49755859375" y="477" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,954) scale(1,-1)">Cart</text>
+			<rect x="500" y="460" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="547.216796875" y="477" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,954) scale(1,-1)">CartItem</text>
+			<rect x="50" y="300" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="103.88427734375" y="317" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,634) scale(1,-1)">Order</text>
+			<rect x="280" y="300" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="323.603515625" y="317" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,634) scale(1,-1)">OrderItem</text>
+			<rect x="500" y="300" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="531.66015625" y="317" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,634) scale(1,-1)">ProductVariant</text>
+			<rect x="50" y="160" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="95.82763671875" y="177" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,354) scale(1,-1)">Category</text>
+			<rect x="280" y="160" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="328.61083984375" y="177" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,354) scale(1,-1)">Product</text>
+			<rect x="280" y="30" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="311.65771484375" y="47" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,94) scale(1,-1)">BaseController</text>
+			<rect x="50" y="30" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="75.27587890625" y="47" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,94) scale(1,-1)">CatalogController</text>
+			<rect x="500" y="30" width="135" height="42" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="529.9951171875" y="47" style="font-family: ArialB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,94) scale(1,-1)">OrderController</text>
+			<path d="M 117,502 L 117,590 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="117 590, 112 578, 122 578" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 185,481 L 280,481 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="213.23974609375" y="492" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,984) scale(1,-1)">1       0..1</text>
+			<path d="M 415,481 L 500,481 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="415 481, 423 485, 431 481, 423 477" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="440.241455078125" y="492" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,984) scale(1,-1)">1      0..*</text>
+			<path d="M 117,460 L 117,342 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="133.9921875" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">1 / 0..*</text>
+			<path d="M 185,321 L 280,321 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="185 321, 193 325, 201 321, 193 317" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="215.241455078125" y="333" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,666) scale(1,-1)">1      1..*</text>
+			<path d="M 415,321 L 500,321 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="440.241455078125" y="333" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,666) scale(1,-1)">0..*      1</text>
+			<path d="M 567,460 L 567,342 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="590.9921875" y="400" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,800) scale(1,-1)">0..* / 1</text>
+			<path d="M 185,181 L 280,181 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="185 181, 193 185, 201 181, 193 177" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="212.73876953125" y="193" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,386) scale(1,-1)">0..1    0..*</text>
+			<path d="M 415,181 L 567,181 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 567,181 L 567,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="415 181, 423 185, 431 181, 423 177" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="590.9921875" y="243" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,486) scale(1,-1)">1 / 1..*</text>
+			<path d="M 185,51 L 280,51 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="280 51, 268 56, 268 46" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 500,51 L 415,51 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="415 51, 427 46, 427 56" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 117,72 L 117,120 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 117,120 L 347,120 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 347,120 L 347,160 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 347,160 L 342,152 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 347,160 L 352,152 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="215.49462890625" y="130" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,260) scale(1,-1)">uses</text>
+			<path d="M 635,51 L 660,51 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 660,51 L 660,560 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 660,560 L 347,560 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 347,560 L 347,502 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 347,502 L 352,510 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 347,502 L 342,510 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="585.7431640625" y="548" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1096) scale(1,-1)">uses Cart</text>
+			<path d="M 567,30 L 567,8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 567,8 L 20,8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 20,8 L 20,321 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 20,321 L 50,321 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 5, 3;"/>
+			<path d="M 50,321 L 42,326 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 50,321 L 42,316 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.49462890625" y="240" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,480) scale(1,-1)">uses</text>
+		</g>
+	</g>
+</svg>
