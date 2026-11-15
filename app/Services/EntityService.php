@@ -11,11 +11,10 @@ function calculateTotal(float $price, int $quantity): float
 // Обчислення ціни зі знижкою
 function applyDiscount(float $price, float $discount): float
 {
-     
+
     if ($discount < 0 || $discount > 100) {
         throw new Exception('Неприпустиме значення знижки!');
     }
 
-    
     return $price - ($price * ($discount / 100));
 }
