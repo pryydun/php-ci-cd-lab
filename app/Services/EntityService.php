@@ -2,20 +2,19 @@
 
 declare(strict_types=1);
 
-// Обчислення загальної вартості товарів
-function calculateTotal(float $price, int $quantity): float
-{
-    return $price * $quantity;
-}
+namespace App\Services;
 
-// Обчислення ціни зі знижкою
-function applyDiscount(float $price, float $discount): float
+use App\Interfaces\LoggerInterface;
+use App\Models\AbstractEntity;
+
+final class EntityService
 {
-    // Перевірка допустимості знижки
-    if ($discount < 0 || $discount > 100) {
-        throw new Exception('Неприпустиме значення знижки!');
+    public function __construct(
+        private LoggerInterface $logger
+    ) {}
+
+    public function process(AbstractEntity $entity): void
+    {
+        $this->logger->log($entity->getDetails());
     }
-
-    // Повернення ціни після знижки
-    return $price - ($price * ($discount / 100));
 }

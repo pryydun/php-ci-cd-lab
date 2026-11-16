@@ -1,144 +1,144 @@
 <?php
 
 declare(strict_types=1);
-use Faker\Factory;
+use App\Core\Database;
+use App\Core\EntityFactory;
+use App\Services\ConsoleLogger;
+use App\Services\EntityService;
+use App\Services\FileLogger;
+use App\Tasks\Artist;
+use App\Tasks\Car;
+use App\Tasks\ExpressTrain;
+use App\Tasks\Genre;
+use App\Tasks\Train;
+use App\Tasks\Worker;
 
-require_once __DIR__.'/app/Services/EntityService.php';
 require_once __DIR__.'/vendor/autoload.php';
-require_once __DIR__.'/app/Services/DataProcessor.php';
-
-// Завдання 2: обчислення вартості
-$price = 799.50;
-$quantity = 2;
-$total = calculateTotal($price, $quantity);
-
-// Завдання 3: генерація випадкових цін
-$faker = Factory::create();
-
-$prices = [];
-
-for ($i = 0; $i < 10; $i++) {
-    $prices[] = $faker->randomFloat(2, 100, 3000);
-}
-
-// Фільтрація цін
-$minThreshold = 500;
-
-$filteredPrices = array_filter(
-    $prices,
-    function ($price) use ($minThreshold) {
-        return $price > $minThreshold;
-    }
-);
-
-// Завдання 4: обробка винятків
-try {
-    // Навмисно некоректна знижка 150%
-    $discountResult = applyDiscount(1000.0, 150.0);
-
-    $discountMessage = 'Ціна зі знижкою: '
-        .$discountResult.' грн';
-} catch (Exception $e) {
-    // Перехоплення винятку
-    $discountMessage = 'Помилка: '.$e->getMessage();
-} finally {
-    // Виконується завжди
-    $finalMessage = 'Спробу розрахунку завершено.';
-}
-
-// Завдання 5, задача 1: сортування масиву
-$numbers = [12, -4, 7, 0, 12, 3];
-$sortedNumbers = sortDescending($numbers);
-
-// Завдання 5, задача 2: три останні слова рядка
-$inputText = 'У магазині є нові зимові куртки';
-$lastThreeWords = getLastThreeWords($inputText);
-
-// Завдання 5, задача 3: перемішування символів
-$shuffleInput = 'Наш магазин продає теплий одяг';
-$shuffledText = shuffleMiddleWords($shuffleInput);
 
 ?>
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Лабораторна робота №3</title>
+    <title>Лабораторна робота №4</title>
 </head>
 <body>
 
-    <h2>Розрахунок вартості замовлення</h2>
+<h1>Лабораторна робота №4 — ООП у PHP</h1>
 
-    <p>Ціна товару: <?= $price ?> грн</p>
-    <p>Кількість: <?= $quantity ?></p>
-    <p>
-        Загальна вартість:
-        <?= number_format($total, 2, '.', ' ') ?> грн
-    </p>
+<h2>1. Singleton</h2>
+<pre>
+<?php
+$db1 = Database::getInstance();
+$db2 = Database::getInstance();
 
-    <h2>Початкові ціни товарів</h2>
+echo 'Same instance: ',
+$db1 === $db2 ? 'Yes' : 'No',
+PHP_EOL;
+?>
+</pre>
 
-    <ul>
-        <?php foreach ($prices as $itemPrice) { ?>
-            <li>
-                <?= number_format($itemPrice, 2, '.', ' ') ?> грн
-            </li>
-        <?php } ?>
-    </ul>
+<h2>2. Factory та наслідування</h2>
+<pre>
+<?php
+$product = EntityFactory::createEntity('product', [
+    'id' => '1',
+    'createdAt' => '2026-11-16',
+    'name' => 'Куртка',
+    'price' => 1500.0,
+]);
 
-    <h2>Товари дорожчі за 500 грн</h2>
+$user = EntityFactory::createEntity('user', [
+    'id' => '2',
+    'createdAt' => '2026-11-16',
+    'name' => 'Вікторія',
+]);
 
-    <ul>
-        <?php foreach ($filteredPrices as $itemPrice) { ?>
-            <li>
-                <?= number_format($itemPrice, 2, '.', ' ') ?> грн
-            </li>
-        <?php } ?>
-    </ul>
+echo $product->getDetails(), PHP_EOL;
+echo $user->getDetails(), PHP_EOL;
+?>
+</pre>
 
-    <h2>Обробка винятків</h2>
+<h2>3. Інтерфейси та трейти — JSON</h2>
+<pre>
+<?= htmlspecialchars($product->exportToJson()) ?>
+</pre>
 
-    <p><?= htmlspecialchars($discountMessage) ?></p>
-    <p><?= htmlspecialchars($finalMessage) ?></p>
+<h2>4. Dependency Injection</h2>
+<pre>
+<?php
+$consoleService = new EntityService(
+    new ConsoleLogger
+);
+$consoleService->process($product);
 
-    <h2>Завдання 5. Задача 1 — Сортування масиву</h2>
+$fileService = new EntityService(
+    new FileLogger
+);
+$fileService->process($user);
+?>
+</pre>
 
-    <p>
-        Початковий масив:
-        <?= implode(', ', $numbers) ?>
-    </p>
+<h2>5. Artist та Genre</h2>
+<pre>
+<?php
+$genre = new Genre(1, 'Rock');
 
-    <p>
-        Відсортований масив:
-        <?= implode(', ', $sortedNumbers) ?>
-    </p>
+$genre->addArtist(
+    new Artist(1, 'Queen', true, 1970)
+);
+$genre->addArtist(
+    new Artist(2, 'Sting', false, 1977)
+);
 
-    <h2>Завдання 5. Задача 2 — Три останні слова</h2>
+echo 'Artists: ', count($genre->getArtists()), PHP_EOL;
+echo 'Found Queen: ',
+count($genre->searchArtist('Queen')), PHP_EOL;
 
-    <p>
-        Початковий рядок:
-        <?= htmlspecialchars($inputText) ?>
-    </p>
+$genre->removeArtist(2);
 
-    <p>
-        Три останні слова:
-        <?= htmlspecialchars($lastThreeWords) ?>
-    </p>
+echo 'After removal: ',
+count($genre->getArtists()), PHP_EOL;
+?>
+</pre>
 
-    <h2>Завдання 5. Задача 3 — Перемішування символів</h2>
+<h2>6. Ієрархія транспортних засобів</h2>
+<pre>
+<?php
+$vehicles = [
+    new Car,
+    new Train,
+    new ExpressTrain,
+];
 
-    <p>
-        Початковий рядок:
-        <?= htmlspecialchars($shuffleInput) ?>
-    </p>
+foreach ($vehicles as $vehicle) {
+    echo (new ReflectionClass($vehicle))->getShortName(),
+    ': ',
+    $vehicle->calculateTravelTime(300.0),
+    ' год',
+    PHP_EOL;
+}
+?>
+</pre>
 
-    <p>
-        Результат перемішування:
-        <?= htmlspecialchars($shuffledText) ?>
-    </p>
+<h2>7. Worker — розрахунок зарплати</h2>
+<pre>
+<?php
+$worker = new Worker(
+    15000.0,
+    120,
+    250.0
+);
+
+echo 'Salary: ',
+$worker->calculateSalary(),
+' грн',
+PHP_EOL;
+?>
+</pre>
 
 </body>
 </html>
+
 
 

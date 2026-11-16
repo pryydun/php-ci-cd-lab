@@ -13,7 +13,7 @@ function sortDescending(array $numbers): array
 // Задача 2: вибір трьох останніх слів рядка
 function getLastThreeWords(string $text): string
 {
-    // Видаляємо пробіли на початку і в кінці
+
     $text = trim($text);
 
     if ($text === '') {
@@ -33,7 +33,7 @@ function getLastThreeWords(string $text): string
 // Задача 3: перемішування символів у проміжних словах
 function shuffleMiddleWords(string $text): string
 {
-    // Видаляємо зайві пробіли
+
     $text = trim($text);
 
     if ($text === '') {
@@ -47,7 +47,6 @@ function shuffleMiddleWords(string $text): string
         return $text;
     }
 
-    // Перебираємо всі слова, крім першого й останнього
     for ($i = 1; $i < count($words) - 1; $i++) {
 
         // Розбиваємо слово на символи UTF-8
